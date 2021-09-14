@@ -36,6 +36,7 @@ public class Program
                 }
             }
         }
+        //
         if (command == "Hand Over")
         {
             Console.WriteLine(string.Join(" ", listDictionary.Select(x => x.Key)));
